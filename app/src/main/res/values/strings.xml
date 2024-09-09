@@ -1,0 +1,212 @@
+<resources>
+    <string name="app_name">QuizApp_20L1202</string>
+
+<!--    <string name="question1">Which of the following data structures provides constant time complexity for insertion and deletion?</string>-->
+<!--    <string name="question2">What is the worst-case time complexity of the Quick Sort algorithm?</string>-->
+<!--    <string name="question3">Which scheduling algorithm is most suitable for real-time systems?</string>-->
+<!--    <string name="question4">In an SQL database, which keyword is used to ensure that all values in a column are unique?</string>-->
+<!--    <string name="question5">Which protocol is used to assign IP addresses automatically to devices on a network?</string>-->
+<!--    <string name="question6">In the Software Development Life Cycle (SDLC), which phase comes immediately after the "Requirements Gathering" phase?</string>-->
+<!--    <string name="question7">What is the primary function of the Control Unit in a CPU?</string>-->
+<!--    <string name="question8">In Artificial Intelligence, which algorithm is used for solving search problems by finding the shortest path?</string>-->
+<!--    <string name="question9">Which of the following OOP concepts means “providing different implementation of a method in subclasses”?</string>-->
+<!--    <string name="question10">In a multiprogramming environment, what is the term for the process of moving jobs in and out of memory?</string>-->
+<!--    <string name="question11">What is the process of organizing data to reduce redundancy called?</string>-->
+<!--    <string name="question12">Which software development methodology emphasizes delivering small, functional increments to users?</string>-->
+<!--    <string name="question13">Which OSI layer is responsible for establishing, managing, and terminating connections?</string>-->
+<!--    <string name="question14">Which memory management technique allocates a fixed amount of memory to each process and does not allow sharing?</string>-->
+<!--    <string name="question15">What is the time complexity of accessing an element in an array by its index?</string>-->
+<!--    <string name="question16">In a binary search algorithm, what must be true of the input array?</string>-->
+<!--    <string name="question17">Which register in a CPU holds the address of the next instruction to be executed?</string>-->
+<!--    <string name="question18">In machine learning, which of the following is an example of unsupervised learning?</string>-->
+<!--    <string name="question19">Which of the following automata accepts only regular languages?</string>-->
+<!--    <string name="question20">In version control systems like Git, what does the command git merge do?</string>-->
+
+    <string-array name="questions">
+        <item>Which of the following data structures provides constant time complexity for insertion and deletion?</item>
+        <item>What is the worst-case time complexity of the Quick Sort algorithm?</item>
+        <item>Which scheduling algorithm is most suitable for real-time systems?</item>
+        <item>In an SQL database, which keyword is used to ensure that all values in a column are unique?</item>
+        <item>Which protocol is used to assign IP addresses automatically to devices on a network?</item>
+        <item>In the Software Development Life Cycle (SDLC), which phase comes immediately after the "Requirements Gathering" phase?</item>
+        <item>What is the primary function of the Control Unit in a CPU?</item>
+        <item>In Artificial Intelligence, which algorithm is used for solving search problems by finding the shortest path?</item>
+        <item>Which of the following OOP concepts means “providing different implementation of a method in subclasses”?</item>
+        <item>In a multiprogramming environment, what is the term for the process of moving jobs in and out of memory?</item>
+        <item>What is the process of organizing data to reduce redundancy called?</item>
+        <item>Which software development methodology emphasizes delivering small, functional increments to users?</item>
+        <item>Which OSI layer is responsible for establishing, managing, and terminating connections?</item>
+        <item>Which memory management technique allocates a fixed amount of memory to each process and does not allow sharing?</item>
+        <item>What is the time complexity of accessing an element in an array by its index?</item>
+        <item>In a binary search algorithm, what must be true of the input array?</item>
+        <item>Which register in a CPU holds the address of the next instruction to be executed?</item>
+        <item>In machine learning, which of the following is an example of unsupervised learning?</item>
+        <item>Which of the following automata accepts only regular languages?</item>
+        <item>In version control systems like Git, what does the command git merge do?</item>
+    </string-array>
+
+    <string-array name="choices_q1">
+        <item>Array</item>
+        <item>Linked List</item>
+        <item>Hash Table</item>
+        <item>Binary Search Tree</item>
+    </string-array>
+
+    <string-array name="choices_q2">
+        <item>O(n)</item>
+        <item>O(n^2)</item>
+        <item>O(n log n)</item>
+        <item>O(n^3)</item>
+    </string-array>
+
+    <string-array name="choices_q3">
+        <item>First-Come,First-Served</item>
+        <item>Round Robin</item>
+        <item>Shortest Job First</item>
+        <item>Priority Scheduling</item>
+    </string-array>
+
+    <string-array name="choices_q4">
+        <item>CHECK</item>
+        <item>UNIQUE</item>
+        <item>DISTINCT</item>
+        <item>PRIMARY</item>
+    </string-array>
+
+    <string-array name="choices_q5">
+        <item>DNS</item>
+        <item>TCP</item>
+        <item>DHCP</item>
+        <item>ICMP</item>
+    </string-array>
+
+    <string-array name="choices_q6">
+        <item>Implementation</item>
+        <item>Testing</item>
+        <item>Design</item>
+        <item>Maintenance</item>
+    </string-array>
+
+    <string-array name="choices_q7">
+        <item>Performing arithmetic and logic operations</item>
+        <item>Control input/output devices</item>
+        <item>Fetch and decode instructions</item>
+        <item>Store data</item>
+    </string-array>
+
+    <string-array name="choices_q8">
+        <item>Breadth-First Search</item>
+        <item>Depth-First Search</item>
+        <item>A* Algorithm</item>
+        <item>Genetic Algorithm</item>
+    </string-array>
+
+    <string-array name="choices_q9">
+        <item>Abstraction</item>
+        <item>Encapsulation</item>
+        <item>Polymorphism</item>
+        <item>Inheritance</item>
+    </string-array>
+
+    <string-array name="choices_q10">
+        <item>Paging</item>
+        <item>Segmentation</item>
+        <item>Swapping</item>
+        <item>Context Switching</item>
+    </string-array>
+
+    <string-array name="choices_q11">
+        <item>Decomposition</item>
+        <item>Normalization</item>
+        <item>DeNormalization</item>
+        <item>Aggregation</item>
+    </string-array>
+
+    <string-array name="choices_q12">
+        <item>Waterfall</item>
+        <item>Agile</item>
+        <item>V-model</item>
+        <item>Spiral</item>
+    </string-array>
+
+    <string-array name="choices_q13">
+        <item>Network Layer</item>
+        <item>Transport Layer</item>
+        <item>Session Layer</item>
+        <item>Data Link Layer</item>
+    </string-array>
+
+    <string-array name="choices_q14">
+        <item>Segmentation</item>
+        <item>Paging</item>
+        <item>Partitioning</item>
+        <item>Swapping</item>
+    </string-array>
+
+    <string-array name="choices_q15">
+        <item>O(n)</item>
+        <item>O(log n)</item>
+        <item>O(n log n)</item>
+        <item>O(1)</item>
+    </string-array>
+
+    <string-array name="choices_q16">
+        <item>Array must contain unique elements</item>
+        <item>Array must be sorted</item>
+        <item>Array must contain integers only</item>
+        <item>Array must be sparse</item>
+    </string-array>
+
+    <string-array name="choices_q17">
+        <item>Instruction Register</item>
+        <item>Program Counter</item>
+        <item>Memory Address Register</item>
+        <item>Stack Pointer</item>
+    </string-array>
+
+
+    <string-array name="choices_q18">
+        <item>Regression</item>
+        <item>K-Means Clustering</item>
+        <item>Decision Trees</item>
+        <item>Neural Networks</item>
+    </string-array>
+
+    <string-array name="choices_q19">
+        <item>Pushdown Automaton</item>
+        <item>Turing Machine</item>
+        <item>Finite State Machine</item>
+        <item>Non-deterministic Turing Machine</item>
+    </string-array>
+
+    <string-array name="choices_q20">
+        <item>Creates a new branch</item>
+        <item>Combines changes from one branch into another</item>
+        <item>Deletes a branch</item>
+        <item>Reverts to a previous commit</item>
+    </string-array>
+
+    <string-array name="correctAnswers">
+        <item>Hash Table</item>
+        <item>O(n^2)</item>
+        <item>Priority Scheduling</item>
+        <item>UNIQUE</item>
+        <item>DHCP</item>
+        <item>Design</item>
+        <item>Fetch and decode instructions</item>
+        <item>A* Algorithm</item>
+        <item>Polymorphism</item>
+        <item>Swapping</item>
+        <item>Normalization</item>
+        <item>Agile</item>
+        <item>Session Layer</item>
+        <item>Partitioning</item>
+        <item>O(1)</item>
+        <item>Array must be sorted</item>
+        <item>Program Counter</item>
+        <item>K-Means Clustering</item>
+        <item>Finite State Machine</item>
+        <item>Combines changes from one branch into another</item>
+    </string-array>
+
+</resources>

@@ -1,0 +1,119 @@
+<?xml version="1.0" encoding="utf-8"?>
+
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:id="@+id/main"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".MainActivity"
+    android:background="#133240"
+    android:gravity="center"
+    android:orientation="vertical">
+
+    <TextView
+        android:id="@+id/score"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Score: 0"
+        android:textSize="18sp"
+        android:textColor="#F2CB05"/>
+
+    <TextView
+        android:id="@+id/timer"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Time left: 5:00"
+        android:textSize="18sp"
+        android:textColor="#82BABB"
+        android:layout_marginTop="10dp"/>
+
+    <TextView
+        android:id="@+id/question"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Question Here"
+        android:layout_marginTop="40dp"
+        android:padding="20dp"
+        android:textColor="@color/white"
+        android:textSize="20sp"
+        android:textStyle="bold"
+        android:gravity="center" />
+
+
+    <CheckBox
+        android:id="@+id/checkBox1"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Choice 1"
+        android:textSize="16sp"
+        android:textColor="@color/white"/>
+
+    <CheckBox
+        android:id="@+id/checkBox2"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Choice 2"
+        android:textSize="16sp"
+        android:textColor="@color/white"/>
+
+    <CheckBox
+        android:id="@+id/checkBox3"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Choice 3"
+        android:textSize="16sp"
+        android:textColor="@color/white"/>
+
+    <CheckBox
+        android:id="@+id/checkBox4"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Choice 4"
+        android:textSize="16sp"
+        android:textColor="@color/white" />
+
+    <Button
+        android:id="@+id/showAnswerButton"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Show Answer"
+        android:layout_marginTop="20dp"
+        android:backgroundTint="#F59D48"/>
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:id="@+id/choices_layout"
+        android:gravity="center"
+        android:orientation="horizontal"
+        android:layout_marginTop="10dp">
+
+        <Button
+            android:id="@+id/prevButton"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="Prev"
+            android:backgroundTint="#E85846"
+            android:layout_marginRight="10dp"/>
+
+        <Button
+            android:id="@+id/nxtButton"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="Next"
+            android:backgroundTint="#E85846"
+            android:layout_marginLeft="10dp"/>
+
+
+    </LinearLayout>
+
+    <Button
+        android:id="@+id/endButton"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="End Exam"
+        android:layout_marginTop="10dp"
+        android:backgroundTint="#C2373D"/>
+
+</LinearLayout>
